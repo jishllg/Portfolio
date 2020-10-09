@@ -1,0 +1,17 @@
+section {
+    font-family: "Lato";
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+nav, section h1 {
+    font-family: "Raleway";
+}
+
+body {
+    background-color: #343a40;
+}
+
+img {
+    margin: 15px 20px;
+}
