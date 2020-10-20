@@ -1,7 +1,6 @@
 section {
     font-family: "Lato";
     background-color: #ffffff;
-    padding: 10px;
 }
 
 nav, section h1 {
@@ -13,5 +12,6 @@ body {
 }
 
 img {
-    margin: 15px 20px;
+    width: 100%;
+    height: auto;
 }
