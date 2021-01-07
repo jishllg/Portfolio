@@ -7,11 +7,70 @@ nav, section h1 {
     font-family: "Raleway";
 }
 
-body {
-    background-color: #343a40;
+.navbar-custom {
+    color: #ffffff;
+    background-color: rgb(31, 31, 31);
 }
 
-img {
+.navbar-brand {
+    
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+section img {
     width: 100%;
     height: auto;
+}
+
+a {
+    color: #212529;
+}
+
+.card {
+    border: none;
+}
+
+.tech-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.card-body {
+    margin-bottom: 24px;
+}
+
+#mfit {
+    background-color: rgba(251, 109, 66, 0.2);
+}
+
+#pggen {
+    background-color: rgb(233, 236, 239);
+}
+
+#xkcd {
+    background-color: rgb(239, 246, 224);
+}
+
+#quiz {
+    background-color:#6c757d87;
+}
+
+#qbud {
+    background-color: #997a9b85;
+}
+
+#plan {
+    background-color: #d3d3d3;
+}
+
+#mail {
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+#brand-name {
+    padding-top: 12px;
 }

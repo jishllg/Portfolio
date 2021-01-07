@@ -17,22 +17,29 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Joshua Illg</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
-    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<nav class="navbar navbar-custom">
+    <h1 class="navbar-brand" id="brand-name">Joshua Illg</h1>
+    <a class="navbar-brand" href="mailto:jishllg@gmail.com" title="Email" id="mail">
+      <img src="./images/mail.png" alt="Email" />
+    </a>
+    <a class="navbar-brand" href="https://github.com/jishllg" target="_blank" title="GitHub">
+      <img src="./images/gh.png" alt="GitHub" class="d-inline-block align-top"/>
+    </a>
+    <a class="navbar-brand" href="https://www.linkedin.com/in/joshuaillg/" target="_blank" title="LinkedIn">
+      <img src="./images/li.png" alt="LinkedIn" />
+    </a>
+    <a class="navbar-brand" href="./images/J_Illg_-_Resume.pdf" target="_blank" title="Resume">
+      <img src="./images/res.png" alt="Resume" class="d-inline-block align-top"/>
+    </a>
+    <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" href="mailto:jishllg@gmail.com">Contact</a>
         <a class="nav-link" href="https://github.com/jishllg" target="_blank">GitHub</a>
         <a class="nav-link" href="https://www.linkedin.com/in/joshuaillg/" target="_blank">LinkedIn</a>
         <a class="nav-link" href="./images/J_Illg_-_Resume.pdf" target="_blank">Resume</a>
       </div>
-    </div>
+    </div> -->
 </nav>
-<br>
 <section class="container">
   <br>
   <h1>About</h1>
@@ -49,55 +56,115 @@
         communication skills, and the ability to perform well within a team or independently.
         <br><br>
         After completing an Associate of Arts degree at Inver Hills Community College, I have 
-        been pursuing a degree in Industrial and Applied Mathematics at Metropolitan State 
-        University. To gain additional field-relevant skills, I have also enrolled in a full 
-        stack web development bootcamp through the University of Minnesota. I will be prepared 
-        to work full-time when both of these programs conclude near the end of this year.
+        recently graduated with a degree in Industrial and Applied Mathematics at Metropolitan State 
+        University. To gain additional field-relevant skills, I have completed a full 
+        stack web development bootcamp through the University of Minnesota. Both of these programs have
+        recently concluded, and I am excited to begin implementing my broad skillset.
+        <br><br>
+        <img class="tech-icon" src="./images/html.png" alt="HTML5" title="HTML">
+        <img class="tech-icon" src="./images/css.png" alt="CSS3" title="CSS">
+        <img class="tech-icon" src="./images/react.png" alt="ReactJS" title="ReactJS">
+        <img class="tech-icon" src="./images/exp.png" alt="ExpressJS" title="ExpressJS">
+        <img class="tech-icon" src="./images/mysql.png" alt="MySQL" title="MySQL">
+        <img class="tech-icon" src="./images/mongo.png" alt="MongoDB" title="MongoDB">
       </p>
-      <br>
     </div>
   </div>
   <h1>Projects</h1>
   <hr>
   <div class="row">
     <div class="col-md-4">
-      <a href="https://github.com/TotalAce/machliFitness">
+      <img class="card-img-top" src="./images/mfit.png" alt="Machli Fitness">
+      <div class="card-body" id="mfit">
+        <h5 class="card-title">Machli Fitness</h5>
+        <p class="card-text">A fitness app to connect trainers to their clients. Designed a clean, robust, and mobile-responsive interface with React.</p>
+        <p class="card-text"><a href="https://github.com/TotalAce/machliFitness" target="_blank">GitHub</a> | <a href="https://machli-fitness.herokuapp.com/" target="_blank">Deployment</a></p>
+      </div>
+    </div>
+    <br>
+      <!-- <a href="https://github.com/TotalAce/machliFitness">
         <img class="card" src=./images/mfit.png alt="Machli Fitness">
         <br>
-      </a>
-    </div>
+      </a> 
+    </div> -->
     <div class="col-md-4">
+      <img class="card-img-top" src="./images/pggen.png" alt="Page Generator">
+      <div class="card-body" id="pggen">
+        <h5 class="card-title">Page Generator</h5>
+        <p class="card-text">Node CLI program that generates a web page for a development team. Styled output and constructed backend with Handlebars.</p>
+        <p class="card-text"><a href="https://github.com/jishllg/Page-Generator" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+    <br>
+    <!-- <div class="col-md-4">
       <a href="https://github.com/jishllg/Page-Generator">
         <img class="card" src=./images/pggen.png alt="Page Generator">
         <br>
       </a>
-    </div>
+    </div> -->
     <div class="col-md-4">
+      <img class="card-img-top" src="./images/xkcd.png" alt="xkcDaily">
+      <div class="card-body" id="xkcd">
+        <h5 class="card-title">xkcDaily</h5>
+        <p class="card-text">A calendar app based around a STEM-themed webcomic. Designed and debuged Express routes and backend data structures.</p>
+        <p class="card-text"><a href="https://github.com/LindseyM20/xkcDaily" target="_blank">GitHub</a> | <a href="https://xkcdaily.herokuapp.com/" target="_blank">Deployment</a></p>
+      </div>
+    </div>
+    <br>
+    <!-- <div class="col-md-4">
       <a href="https://github.com/LindseyM20/xkcDaily">
         <img class="card" src=./images/xkcd.png alt="xkcDaily">
         <br>
       </a>
-    </div>
-  </div>
+    </div> -->
+  </div> 
   <div class="row">
     <div class="col-md-4">
+      <img class="card-img-top" src="./images/quiz.png" alt="Coding Quiz">
+      <div class="card-body" id="quiz">
+        <h5 class="card-title">Coding Quiz</h5>
+        <p class="card-text">A quiz for beginner developers. Constructed form and functionality with browser-based JavaScript.</p>
+        <p class="card-text"><a href="https://github.com/jishllg/Code-Quiz" target="_blank">GitHub</a> | <a href="https://jishllg.github.io/Code-Quiz/" target="_blank">Deployment</a></p>
+      </div>
+    </div>
+    <br>
+    <!-- <div class="col-md-4">
       <a href="https://github.com/jishllg/Code-Quiz">
         <img class="card" src=./images/quiz.png alt="Coding Quiz">
         <br>
       </a>
-    </div>
+    </div> -->
     <div class="col-md-4">
-      <a href="https://github.com/jishllg/Password-Generator">
-        <img class="card" src=./images/pwgen.png alt="Password Generator">
-        <br>
-      </a>
+      <img class="card-img-top" src="./images/qbud.png" alt="QuoteBuddy">
+      <div class="card-body" id="qbud">
+        <h5 class="card-title">QuoteBuddy</h5>
+        <p class="card-text">An app that generates inpspiring quotes and reads them aloud. Designed RESTful API routes and a storage system that operates 
+          entirely within the browser.</p>
+        <p class="card-text"><a href="https://github.com/LindseyM20/quotes" target="_blank">GitHub</a> | <a href="https://lindseym20.github.io/QuoteBuddy/" target="_blank">Deployment</a></p>
+      </div>
     </div>
-    <div class="col-md-4">
+    <br>
+    <!-- <div class="col-md-4">
       <a href="https://github.com/LindseyM20/quotes">
         <img class="card" src=./images/qbud.png alt="QuoteBuddy">
         <br>
       </a>
+    </div> -->
+    <!-- <div class="col-md-4">
+      <a href="https://github.com/jishllg/Password-Generator">
+        <img class="card" src=./images/pwgen.png alt="Password Generator">
+        <br>
+      </a>
+    </div> -->
+    <div class="col-md-4">
+      <img class="card-img-top" src="./images/plan.png" alt="Planner">
+      <div class="card-body" id="plan">
+        <h5 class="card-title">Planner</h5>
+        <p class="card-text">A planner to track hourly appointments thoughout the day. Implemented third-party JavaScript libararies within browser-based code.</p>
+        <p class="card-text"><a href="https://github.com/jishllg/Planner" target="_blank">GitHub</a> | <a href="https://jishllg.github.io/Planner/" target="_blank">Deployment</a></p>
+      </div>
     </div>
+    <br>
   </div>
 </section>
 
