@@ -11,6 +11,7 @@ nav, section h1 {
 .navbar-custom {
     color: #ffffff;
     background-color: rgb(31, 31, 31);
+    padding-top: 16px;
     text-align: left;
     animation: 1s ease-out 0s 1 fadeInFromTop;
 }
