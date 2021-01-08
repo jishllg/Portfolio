@@ -1,6 +1,7 @@
 section {
     font-family: "Lato";
     background-color: #ffffff;
+    animation: 1s ease-out 0s 1 fadeInFromBottom;
 }
 
 nav, section h1 {
@@ -11,6 +12,7 @@ nav, section h1 {
     color: #ffffff;
     background-color: rgb(31, 31, 31);
     text-align: left;
+    animation: 1s ease-out 0s 1 fadeInFromTop;
 }
 
 body {
@@ -44,6 +46,11 @@ a {
     padding-bottom: 10px;
 }
 
+#nav-header {
+    padding: 0;
+    margin : 0;
+}
+
 #mfit {
     background-color: rgba(251, 109, 66, 0.2);
 }
@@ -74,4 +81,27 @@ a {
 
 #brand-name {
     padding-top: 14px;
+}
+
+/* Animation */
+@keyframes fadeInFromBottom {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromTop {
+    0% {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
