@@ -10,10 +10,7 @@ nav, section h1 {
 .navbar-custom {
     color: #ffffff;
     background-color: rgb(31, 31, 31);
-}
-
-.navbar-brand {
-    
+    text-align: left;
 }
 
 body {
@@ -42,6 +39,11 @@ a {
     margin-bottom: 24px;
 }
 
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
 #mfit {
     background-color: rgba(251, 109, 66, 0.2);
 }
@@ -67,10 +69,9 @@ a {
 }
 
 #mail {
-    padding-top: 7px;
-    padding-bottom: 3px;
+    margin-left: 16px;
 }
 
 #brand-name {
-    padding-top: 12px;
+    padding-top: 14px;
 }
