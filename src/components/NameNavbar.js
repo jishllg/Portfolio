@@ -9,13 +9,16 @@ function NameNavbar() {
             </div>
             <div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-3">
                         <h4>About</h4>
                     </div>
-                    <div class="col-4">
-                        <h4>Projects</h4>
+                    <div class="col-3">
+                        <h4>Mathematics</h4>
                     </div>
-                    <div class="col-4">
+                    <div class="col-3">
+                        <h4>Programming</h4>
+                    </div>
+                    <div class="col-3">
                         <h4>Contact</h4>
                     </div>
                 </div>
